@@ -33,14 +33,20 @@ extra:
     method: mike
 ```
 
-Set the default version to `latest`
-
-```
-mike set-default latest
-```
-
 Make a change to `docs/index.md`, and publish the first version:
 
 ```
 mike --push --update-aliases 0.1 latest
+```
+
+Set the default version to `latest`
+
+```
+mike set-default --push latest
+```
+
+Now, make another change and publish a new version:
+
+```
+mike --push --update-aliases 0.2 latest
 ```
