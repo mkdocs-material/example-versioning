@@ -30,7 +30,7 @@ theme:
   name: material
 extra:
   version:
-    method: mike
+    provider: mike
 ```
 
 Make a change to `docs/index.md`, and publish the first version:
