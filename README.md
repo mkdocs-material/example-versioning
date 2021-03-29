@@ -6,14 +6,14 @@
 
 ## How to set up versioning
 
-First, install [Material for MkDocs Insiders][3] and [mike][4]:
+First, install [Material for MkDocs][3] and [mike][4]:
 
 ```
-pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+pip install mkdocs-material
 pip install mike
 ```
 
-  [3]: https://squidfunk.github.io/mkdocs-material/insiders/
+  [3]: https://squidfunk.github.io/mkdocs-material/
   [4]: https://github.com/jimporter/mike
 
 Next, set up your documentation project:

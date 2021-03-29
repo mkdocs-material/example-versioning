@@ -31,8 +31,9 @@ edit_uri: ""
 # Configuration
 theme:
   name: material
+  custom_dir: overrides
 
 # Customization
 extra:
   version:
-    method: mike
+    provider: mike
