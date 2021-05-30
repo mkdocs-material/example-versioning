@@ -33,10 +33,6 @@ theme:
   name: material
   custom_dir: overrides
 
-# Plugins
-plugins:
-  - search
-
 # Customization
 extra:
   version:
