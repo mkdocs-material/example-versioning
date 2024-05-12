@@ -6225,12 +6225,11 @@
             return EMPTY;
           }),
           switchMap((url) => {
-            const { version } = urls.get(url);
             return fetchSitemap(new URL(url)).pipe(
               map((sitemap) => {
                 const location2 = getLocation();
                 const path = location2.href.replace(config4.base, url);
-                return sitemap.has(path.split("#")[0]) ? new URL(`../${version}/${path}`, config4.base) : new URL(url);
+                return sitemap.has(path.split("#")[0]) ? new URL(path) : new URL(url);
               })
             );
           })
