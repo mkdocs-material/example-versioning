@@ -1,4 +1,4 @@
-# Welcome to My Docs 0.3
+# Welcome to My Docs 0.1
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

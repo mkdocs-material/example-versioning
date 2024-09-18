@@ -20,12 +20,12 @@
 
 # Project information
 site_name: My Docs
-site_url: https://squidfunk.github.io/mkdocs-material-example-versioning/
+site_url: https://mkdocs-material.github.io/example-versioning/
 site_author: Martin Donath
 
 # Repository
-repo_name: squidfunk/mkdocs-material-example-versioning
-repo_url: https://github.com/squidfunk/mkdocs-material-example-versioning
+repo_name: mkdocs-material/example-versioning
+repo_url: https://github.com/mkdocs-material/example-versioning
 edit_uri: ""
 
 # Configuration
